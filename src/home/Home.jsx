@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {AiOutlineRight} from 'react-icons/ai'
+import List from '../components/list/List'
 import Navbar from '../components/navbar/Navbar'
 import '../index.css'
 const Home = () => {
@@ -24,66 +25,10 @@ const Home = () => {
        </div>
 
        <div className=' bg-stone-800'>
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
-       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
+        <List/>
+        <List/>
+        <List/>
+        <List/>
        </div>
    </div>
   )
