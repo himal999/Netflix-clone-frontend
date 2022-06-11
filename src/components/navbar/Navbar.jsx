@@ -5,10 +5,10 @@ import {AiOutlineCaretDown} from 'react-icons/ai'
 
 const Navbar = () => {
   return (
-    <div className='px-14 bg-neutral-900 flex flex-row justify-between fixed w-full z-[999]'>
+    <div className='z-[999] px-14  flex flex-row justify-between fixed w-full bg-gradient-to-b from-neutral-900  to-transparent '>
     <div className='flex flex-row  w-3/6 items-center justify-center'>
        <img src={require("../../assets/images/netflix-logo.png")} className='w-40 h-[90px] mr-10'></img>
-       <ul className='flex flex-row text-white text-xl '>
+       <ul className='flex flex-row text-white text-xl  '>
            <li className='px-4'><a href=''>Home</a></li>
            <li className='px-4'><a href=''>Series</a></li>
            <li className='px-4' ><a href=''>Movies</a></li>
