@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {HiOutlineSearch} from 'react-icons/hi'
 import {MdOutlineNotifications} from 'react-icons/md'
 import {AiOutlineCaretDown} from 'react-icons/ai'
 
 const Navbar = () => {
+  const [isScrolled,setIsScrolled] = useState(false);
+  window.onscroll = ()=>{
+    setIsScrolled(window.pageYOffset <= 472 ? true:false);
+    console.log(window.pageYOffset)
+    return () => window.onscroll = null;
+    
+  }
   return (
-    <div className='z-[999] px-14  flex flex-row justify-between fixed w-full bg-gradient-to-b from-neutral-900  to-transparent '>
+    <div className={`z-[999] px-14  flex flex-row justify-between fixed w-full ${isScrolled ? 'navbar':'navbar-scrolled'}`}>
     <div className='flex flex-row  w-3/6 items-center justify-center'>
        <img src={require("../../assets/images/netflix-logo.png")} className='w-40 h-[90px] mr-10'></img>
        <ul className='flex flex-row text-white text-xl  '>

@@ -7,7 +7,6 @@ const Home = () => {
   return (
    <div>
        <Navbar/>
-       {/* <img src={require("../assets/images/hero.jpg")} className='w-full z-[1000]'></img> */}
        <div className=' h-[930px] w-full flex flex-col justify-center items-center home  bg-black-rgba'>
            <div className='flex flex-col justify-center items-center'>
                <h2 className='text-white text-6xl font-bold leading-[80px] '>Unlimited movies, TV </h2>
@@ -24,6 +23,7 @@ const Home = () => {
            </div>
        </div>
 
+       <div className=' bg-stone-800'>
        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
@@ -84,6 +84,7 @@ const Home = () => {
        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel distinctio voluptatum ipsum unde debitis veniam, dicta temporibus eveniet deleniti, facilis cum. Dolorum mollitia illum minus ipsum quae laudantium fugit quas.
+       </div>
    </div>
   )
 }

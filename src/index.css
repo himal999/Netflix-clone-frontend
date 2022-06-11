@@ -13,3 +13,10 @@
     z-index: -1;
     background: url("./assets/images/hero.jpg") no-repeat center center/cover;
 }
+
+.navbar{
+    @apply  bg-gradient-to-b from-neutral-900  to-transparent;
+}
+.navbar-scrolled{
+    @apply  bg-neutral-900;
+}
