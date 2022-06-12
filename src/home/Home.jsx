@@ -8,7 +8,7 @@ const Home = () => {
   return (
    <div>
        <Navbar/>
-       <div className=' h-[930px] w-full flex flex-col justify-center items-center home  bg-black-rgba'>
+       <div className=' h-[930px] w-full flex flex-col justify-center items-center home  bg-black-rgba '>
            <div className='flex flex-col justify-center items-center'>
                <h2 className='text-white text-6xl font-bold leading-[80px] '>Unlimited movies, TV </h2>
                <h2 className='text-white text-6xl font-bold'>shows, and more .</h2>
@@ -24,7 +24,7 @@ const Home = () => {
            </div>
        </div>
 
-       <div className=' bg-stone-800'>
+       <div className='h-[1300px] bg-stone-800'>
         <List/>
         <List/>
         <List/>

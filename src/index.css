@@ -20,3 +20,18 @@
 .navbar-scrolled{
     @apply  bg-neutral-900;
 }
+
+.list-item:hover{
+
+    @apply w-[420px] h-[470px] z-[999];
+    -webkit-box-shadow: 1px 0px 15px 0px rgba(255,255,255,0.35); 
+      box-shadow: 1px 0px 15px 0px rgba(255,255,255,0.35);
+
+}
+.list-item:hover > .list-img{
+    @apply w-[420px];
+}
+
+.list-item:hover > .list-desc{
+    @apply flex
+}
